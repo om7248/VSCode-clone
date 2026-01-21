@@ -1,0 +1,362 @@
+body{
+    background-color: #0d1117;
+    padding-top: 56px;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ffffff1f;
+    padding: 4px 0px;
+    background-color: #111827;
+    z-index: 1000;
+}
+
+
+#navh1{
+    font-size: 20px;
+    margin-left: 1%;
+    font-weight: 500;
+}
+
+#navimg{
+    padding-top: 0%;
+    margin-left: 5%;
+}
+
+#navp{
+    font-weight: bold;
+    color: rgb(162, 166, 168);
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.navloc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+
+#navmode{
+    margin-left: 20%;
+}
+
+.search{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 8px 12px;
+    background-color: #ffffff0a;
+    border: 1px solid #ffffff3a;
+    border-radius: 6px;
+    color: white;
+}
+
+.search::placeholder{
+    color: #c3d0e5;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#navbtn{
+    padding: 8px 25px;
+    background-color: #0078d4;
+    border: 1px solid #0078d4;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btnp{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.landpage{
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 1) 100% ), url("./vsc-bg.png");
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#lh1{
+    margin: 0%;
+    font-size: 74px;
+    padding: 25px 425px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.ld1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #191919 ;
+    padding: 15px 10px;
+    margin: 0%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#lbtn1{
+    padding: 10px 45px;
+    border-radius: 10px;
+    margin: 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+    transition: outline .2s ease, outline-offset .2s ease;
+}
+
+#lbtn1:hover{
+    outline: solid 2px #ffffff;
+    outline-color: #ffffff;
+    outline-offset: 4px;
+}
+
+#btn1p1{
+    font-weight: 520;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0%;
+}
+
+#lp1{
+    font-size: 12px;
+    padding: 0px 0px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 100px;
+}
+
+.card1,.card2, .card3{
+    border: 1px solid #ffffff1f;
+    border-radius: 10px;
+    margin: 2px 30px;
+    padding: 16px;
+    background-color: #ffffff0a;
+}
+
+#c1h1{
+    font-size: 20px;
+    color: #c3d0e5;
+    margin: 0%;
+}
+
+#c1p{
+    font-size: 16px;
+    color: #9fb1d1;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.supportcard{
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #ffffff1f;
+    border-radius: 8px;
+    background-color: #ffffff0a;
+    padding: 16px;
+}
+
+.supportcard:hover{
+    border: 1px solid #606060c7;
+}
+
+.cards2{
+    display: flex;
+    align-items: center;
+    margin: 1px 120px;
+}
+
+.c2h{
+    padding: 1px 0px;
+}
+
+#c2h1{
+    font-size: 30px;
+    color: #c3d0e5;
+    margin: 0px 0px 10px;
+    padding: 0px 80px;
+    padding-left: 2px;
+}
+
+a{
+    color: #4daafc;
+}
+
+#c2p1{
+    font-size: 16px;
+    color: #9fb1d1;
+    padding: 0px 80px;
+    padding-left: 2px;
+    margin: 0px 0px 10px;
+    text-align: start;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    width: 180%;
+}
+
+#sch1{
+    margin: 0%;
+    color: #c3d0e5;
+}
+
+#scp{
+    margin: 0%;
+    color: #9fb1d1;
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    margin: 80px 120px;
+}
+
+#langh1{
+    font-size: 30px;
+    color: #c3d0e5;
+    margin: 0px 0px 10px;
+    padding: 0px 80px;
+    padding-left: 2px;
+}
+
+#langp1{
+    font-size: 16px;
+    color: #9fb1d1;
+    padding: 0px 80px;
+    padding-left: 2px;
+    margin: 0px 0px 10px;
+    text-align: start;
+}
+
+.icon-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 180%;
+    row-gap: 8px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#icon-name{
+    color: #9ba3b4;
+    font-size: 16px;
+    padding: 2px 4px;
+}
+
+.cards4{
+}
+
+#c4h{
+    text-align: center;
+    color: #c3d0e5;
+    font-size: 30px;
+}
+
+#c4p{
+    text-align: center;
+    color: #9fb1d1;
+    font-size: 16px;
+    padding: 1px 500px;
+    margin-bottom: 32px;
+}
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px 100px;
+    gap: 16px;
+    margin: 0px auto;
+}
+
+
+
+.feature-grid img{
+    background-color: #ffffff12;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+}
+
+.feature{
+    padding: 24px;
+    border: 1px solid #ffffff1f;
+    border-radius: 10px;
+    background-color: #ffffff0a;
+
+}
+
+.feature:hover{
+    border: 1px solid #606060c7;
+}
+
+.feature h4{
+    font-size: 16px;
+    color: #c3d0e5;
+}
+
+.feature p{
+    font-size: 14px;
+    color: #9fb1d1;
+}
+
+.footer{
+    margin: 80px 100px;
+    cursor: pointer;
+}
+
+.ftrtags{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.ftrp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    color: #9fb1d1;
+    font-size: 14px;
+}
